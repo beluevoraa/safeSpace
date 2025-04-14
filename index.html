@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-overlay">
+          <h1 class="hero-title">Safe space</h1>
+        </div>
+      </section>
+      
+      <nav class="navbar">
+        <ul>
+          <li><a href="#oraciones">Oraciones</a></li>
+          <li><a href="#lugar-seguro">Lugar Seguro</a></li>
+          <li><a href="#galeria">Imágenes</a></li>
+        </ul>
+      </nav>
+
+      <section class="rezos" id="oraciones">
+             <h2>Oraciones</h2>
+        
+        <div class="santos-grid">
+          <div class="santo-card santo-name" id="san-expedito">
+            <h3>San Expedito</h3>
+            <p>El santo de las causas urgentes</p>
+          </div>
+          <div class="santo-card santo-name" id="san-cayetano">
+            <h3>San Cayetano</h3>
+            <p>Protector del pan y el trabajo</p>
+          </div>
+        </div>
+   
+      </section>
+      
+      
+      
+      <!-- Fondo oscuro -->
+    <div id="fade" class="fade"></div>
+
+<!-- Popup -->
+    <div id="popup" class="popup">
+        <button id="cerrar-btn" class="cerrar-btn">x</button>
+        <img id="santo-img" src="" alt="Imagen del Santo">
+        <h2 id="santo-title"></h2>
+        <p id="oracion-texto"></p>
+        <button id="info-btn">Más info</button>
+        <div id="info-extra" class="info-extra"></div>
+    </div>
+
+    <section class="lugar-seguro" id="lugar-seguro">
+        <div class="contenido-lugar">
+          <h2>Lugar Seguro</h2>
+          <p>Este es un espacio de calma, fe y reflexión. Acá podés respirar, sentirte acompañada y conectar con vos misma. 🤍</p>
+        </div>
+      </section>
+
+      <section class="galeria" id="galeria">
+        <h2>Saved by His Grace</h2>
+        <div class="galeria-container">
+          <button class="galeria-btn" id="prev">&#10094;</button>
+          <img id="galeria-img" src="img/galeria1.jpeg" alt="Imagen galería">
+          <button class="galeria-btn" id="next">&#10095;</button>
+        </div>
+      </section>
+      
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
